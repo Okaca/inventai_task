@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+
+# Environment files (ignore all variations like .env.test, .env.local, etc.)
+.env
+.env.*
+!.env.test
+
+# Playwright specific
+test-results/
+playwright-report/
+playwright/.cache/
+
+# IDE / Editor folders
+.vscode/
